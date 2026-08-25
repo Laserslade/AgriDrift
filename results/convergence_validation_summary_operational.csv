@@ -1,0 +1,9 @@
+scenario,grid_best_nozzle,grid_best_drift,nsga_best_nozzle_mode,nsga_best_drift_min,nsga_drift_spread_across_seeds,gap_nsga_minus_grid,all_seeds_agree_on_nozzle,verdict
+calm_wind,air_induction_cvi,0.0,flat_fan_classic,0.0,0.0,0.0,False,UNSTABLE (seeds disagree)
+moderate_wind,air_induction_cvi,0.0,air_induction_cvi,0.0,0.0,0.0,True,CONVERGED
+strong_wind,air_induction_tti,0.001606,air_induction_tti,0.00161,0.0,4.000000000000097e-06,True,CONVERGED
+stable_atmosphere,air_induction_cvi,0.0,air_induction_cvi,0.0,0.0,0.0,True,CONVERGED
+unstable_atmosphere,air_induction_cvi,0.0,air_induction_cvi,0.0,0.0,0.0,False,UNSTABLE (seeds disagree)
+hot_dry,air_induction_cvi,0.0,air_induction_cvi,0.0,0.0,0.0,True,CONVERGED
+cool_humid,air_induction_cvi,0.0,air_induction_cvi,0.0,0.0,0.0,True,CONVERGED
+worst_case_combo,air_induction_tti,0.006067,air_induction_tti,0.00607,0.0,2.999999999999531e-06,True,CONVERGED

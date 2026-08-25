@@ -1,0 +1,9 @@
+scenario,wind_speed,atmospheric_stability,temperature_c,relative_humidity,n_pareto_solutions,recommended_nozzle,recommended_pressure_bar,recommended_boom_height_m,drift_fraction,coverage_fraction,evaporated_fraction
+calm_wind,1.0,stable,18.0,65.0,1,flat_fan_classic,1.04,0.92,0.0,1.0,0.0
+moderate_wind,3.0,neutral,24.0,55.0,2,air_induction_tti,1.04,0.62,0.0,1.0,0.0
+strong_wind,7.0,neutral,24.0,55.0,1,air_induction_tti,3.84,0.5,0.00161,1.0,0.0
+stable_atmosphere,3.0,stable,15.0,70.0,2,air_induction_cvi,1.17,0.55,0.0,1.0,0.0
+unstable_atmosphere,3.0,unstable,32.0,35.0,2,air_induction_tti,1.04,0.62,0.0,1.0,0.0
+hot_dry,3.0,neutral,36.0,18.0,2,air_induction_cvi,1.42,0.55,0.0,1.0,0.0
+cool_humid,3.0,neutral,10.0,90.0,1,air_induction_cvi,2.41,0.52,0.0,1.0,0.0
+worst_case_combo,8.0,unstable,34.0,22.0,3,air_induction_tti,3.8,0.5,0.00607,0.99395,5.2e-05

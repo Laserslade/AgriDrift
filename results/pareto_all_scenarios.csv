@@ -1,0 +1,15 @@
+scenario,nozzle_type,pressure_bar,boom_height_m,drift_fraction,coverage_fraction,evaporated_fraction,escaped_fraction_diag
+calm_wind,flat_fan_classic,1.04,0.92,0.0,1.0,0.0,0.0
+moderate_wind,air_induction_tti,1.04,0.62,0.0,1.0,0.0,0.0
+moderate_wind,air_induction_cvi,1.16,0.55,0.0,1.0,0.0,0.0
+strong_wind,air_induction_tti,3.84,0.5,0.00161,1.0,0.0,0.0
+stable_atmosphere,air_induction_cvi,1.17,0.55,0.0,1.0,0.0,0.0
+stable_atmosphere,air_induction_tti,1.16,0.8,0.0,1.0,0.0,0.0
+unstable_atmosphere,air_induction_tti,1.04,0.62,0.0,1.0,0.0,0.0
+unstable_atmosphere,air_induction_cvi,1.02,0.53,0.0,1.0,0.0,0.0
+hot_dry,air_induction_cvi,1.42,0.55,0.0,1.0,0.0,0.0
+hot_dry,air_induction_tti,1.04,0.55,0.0,1.0,0.0,0.0
+cool_humid,air_induction_cvi,2.41,0.52,0.0,1.0,0.0,0.0
+worst_case_combo,air_induction_tti,3.8,0.5,0.00607,0.99395,5.2e-05,0.000199
+worst_case_combo,air_induction_tti,3.63,0.5,0.00607,0.99389,0.0,0.000199
+worst_case_combo,air_induction_tti,3.47,0.5,0.00642,0.99405,0.0,0.000199

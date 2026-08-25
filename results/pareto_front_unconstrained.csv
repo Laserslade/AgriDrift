@@ -1,0 +1,3 @@
+nozzle_type,pressure_bar,boom_height_m,drift_fraction,coverage_fraction,evaporated_fraction,escaped_fraction_diag
+air_induction_tti,1.16,0.3,0.0,1.0,0.0,0.0
+air_induction_cvi,1.16,0.3,0.0,1.0,0.0,0.0

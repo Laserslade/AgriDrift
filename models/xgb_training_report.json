@@ -1,0 +1,82 @@
+{
+  "coverage_fraction": {
+    "r2": 0.9711469346155878,
+    "r2_alt_split": 0.9586825531296578,
+    "mae": 0.017595842398240615,
+    "rmse": 0.03215114562635005,
+    "y_mean": 0.9199677900135139,
+    "y_std": 0.17955008787771776,
+    "top_features": {
+      "nozzle_type_flat_fan_classic": 0.24564941227436066,
+      "nozzle_type_air_induction_id": 0.18964800238609314,
+      "nozzle_type_air_induction_cvi": 0.17106397449970245,
+      "wind_dir_deg": 0.08880551904439926,
+      "wind_speed": 0.08836977928876877,
+      "nozzle_type_air_induction_tti": 0.08816036581993103
+    }
+  },
+  "drift_fraction": {
+    "r2": 0.9708431758946137,
+    "r2_alt_split": 0.958292736374295,
+    "mae": 0.017384362728582133,
+    "rmse": 0.03192986263953325,
+    "y_mean": 0.07921516715271898,
+    "y_std": 0.17766385625684203,
+    "top_features": {
+      "nozzle_type_flat_fan_classic": 0.24813023209571838,
+      "nozzle_type_air_induction_id": 0.204709991812706,
+      "nozzle_type_air_induction_cvi": 0.1529088020324707,
+      "wind_dir_deg": 0.0903787910938263,
+      "wind_speed": 0.08972980827093124,
+      "boom_height_m": 0.08681458234786987
+    }
+  },
+  "evaporated_fraction": {
+    "r2": 0.8558806489052518,
+    "r2_alt_split": 0.8171823726771144,
+    "mae": 0.0003751790713181746,
+    "rmse": 0.0013370583709106847,
+    "y_mean": 0.0005857941391325584,
+    "y_std": 0.003004990442850998,
+    "top_features": {
+      "nozzle_type_flat_fan_classic": 0.21781890094280243,
+      "nozzle_type_air_induction_tti": 0.13907520473003387,
+      "nozzle_type_air_induction_cvi": 0.12351368367671967,
+      "nozzle_type_air_induction_id": 0.1116349920630455,
+      "boom_height_m": 0.07897040992975235,
+      "pressure_bar": 0.07788984477519989
+    }
+  },
+  "escaped_fraction": {
+    "r2": 0.6138942762496009,
+    "r2_alt_split": 0.4273917488975997,
+    "mae": 0.0002462323974795717,
+    "rmse": 0.0011834722132150076,
+    "y_mean": 0.00023124869463453512,
+    "y_std": 0.001840478480101861,
+    "top_features": {
+      "atmospheric_stability_unstable": 0.1661963015794754,
+      "pressure_bar": 0.09371300041675568,
+      "atmospheric_stability_neutral": 0.09037356823682785,
+      "boom_height_m": 0.09011021256446838,
+      "nozzle_type_flat_fan_classic": 0.09004365652799606,
+      "wind_dir_deg": 0.08976121246814728
+    }
+  },
+  "mean_droplet_diameter_um": {
+    "r2": 0.9990464062769934,
+    "r2_alt_split": 0.9990055668104376,
+    "mae": 3.420498410401015,
+    "rmse": 4.438585892270294,
+    "y_mean": 442.72841135021423,
+    "y_std": 141.91402196377817,
+    "top_features": {
+      "nozzle_type_flat_fan_classic": 0.623908519744873,
+      "nozzle_type_air_induction_tti": 0.16065041720867157,
+      "nozzle_type_air_induction_id": 0.1062336191534996,
+      "nozzle_type_air_induction_cvi": 0.10204891860485077,
+      "pressure_bar": 0.006986146327108145,
+      "temperature_c": 2.940649756055791e-05
+    }
+  }
+}
